@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "npm-namer": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jayrdeaton/NPM-Namer.git"
