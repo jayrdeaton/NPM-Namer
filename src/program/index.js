@@ -5,7 +5,7 @@ const { command, option } = require('termkit'),
 
 const program = command('npm-namer', '<name>')
   .version(version)
-  .description('A CLI utility for creating, checking, and removing lock files')
+  .description('Find an available npm package name, expanding through thesaurus synonyms')
   .middleware(checkKey)
   .action(namer)
 
